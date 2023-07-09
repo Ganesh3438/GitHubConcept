@@ -1,0 +1,14 @@
+What is Array?
+Collection of same data type values 
+
+Question 1: Create an array which can store 5 integer value
+
+Answer: int a[] = new int[5];
+
+Question 2: Take 5 values from user store that in array
+
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+
+int arr[] = new int[n]; 
+

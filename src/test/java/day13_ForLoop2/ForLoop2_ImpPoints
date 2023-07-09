@@ -1,0 +1,16 @@
+What is factors of given number?
+Any value which can divide n completely is know as factor of N
+
+Ex: 24 -- > 24 can be divided by 1, 2, 3, 4, 6, 8, 12, 24
+25 ---> 1, 5, 25
+
+--> Given a +ve number you have to print all its positive numbers
+
+---> What is prime number ?
+A positive number with only two factors(1 and number itself)
+
+
+
+
+
+ 

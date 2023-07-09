@@ -1,0 +1,98 @@
+Question 1: Print n stars
+
+for example the n = 3 means we have to print  * * * 
+                n = 5 means we have to print  * * * * *
+                
+Logic: Scanner sc = new Scanner(System.in);
+       int n = sc.nextInt();
+       
+       for(int i=1; i<=n; i++){
+       System.out.print("*" + " ");
+       }
+           
+// ------------------------------------------------------------
+
+Question 2: Given n, print square 
+ 
+n = 3    * * *
+         * * *
+         * * *
+         
+         for(int i=1; i<=n; i++){           Dry run: i i<=n  j j<=n       o/p      
+                                                     1  T    1  T        ***
+         for(int j=1; j<=n; j++){                            2  T        
+                                                             3  T        
+                                                             4  F(break)
+                                                             
+                                                     2 T     1  T        ***          
+         System.out.print("*")                               2  T
+                                                             3  T
+         }                                                   4  F(break)
+         
+         System.out.println("")                      3 T     1  T        ***
+         }                                                   2  T
+                                                             3  T
+                                                             4  F(break)     
+                                                             
+                                                             
+// ----------------------------------------------------------------
+
+Question 3: Print the following patterns (Staircase pattern)
+
+if n = 3  *                      n = 5  * 
+          * *                           * * 
+          * * *                         * * *
+                                        * * * *       
+                                        * * * * *
+                                        
+                                        
+ for(int i=1; i<=n; i++){
+ 
+ for(int j=1; j<=i; j++){
+ System.out.print("*");
+ }
+ System.out.println("");
+ }                    
+ 
+ //------------------------------------------------------------------
+ Question 4: Reverse staircase pattern
+ 
+ if n =3 ***
+         **
+         *
+         
+         
+         for(int i=n; i>=1; i--){        Dry run : i  j   o/p
+                                                   3  1   ***
+         for(int j=1; j<=i; j++){                     2
+                                                      3
+         System.out.print("*");                       4(break)
+         
+                                                   2  1   **
+                                                      2   
+         }                                            3(break)                                         
+                                                   
+                                                   1  1   *
+         System.out.println("");                      2(break)
+         }                    
+                                                                       
+                                                                       
+                                                                       
+// ---------------------------------------------------------------------------
+Question 5: Print the pattern (Spaces are there as well)  Time: 1:48:00
+
+if n = 3 * - - *
+         * - *
+         * *     
+         
+    for(int i =1; i<=n; i++){
+    
+     System.out.print("*"); 
+     
+     for(int j=1; j<n-i; j++){
+     System.out.print("-");
+     }
+     System.out.print("*");
+     System.out.println("");
+    }     
+                                                                           

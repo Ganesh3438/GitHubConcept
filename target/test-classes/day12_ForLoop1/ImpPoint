@@ -1,0 +1,7 @@
+Question : Add digit d to the back of number r
+
+Example: r = 198 d = 5
+The output should be 1985 so the formula will be below 
+r*10+d then it will be 1985
+
+

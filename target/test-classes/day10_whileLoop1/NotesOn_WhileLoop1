@@ -1,0 +1,14 @@
+Notes: Structure of while loop:
+
+Step 1: Initialize a loop variable
+        int i = 1;
+        
+Step 2: Write while condition
+        while(i<=5) { // While will execute till this condition is true        
+        
+Step 3: Write code about your task
+
+Step 4: Updation of loop variable
+        i++;
+ }  
+                
