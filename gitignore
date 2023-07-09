@@ -1,0 +1,8 @@
+.mtj.temp/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+activityLog.log
