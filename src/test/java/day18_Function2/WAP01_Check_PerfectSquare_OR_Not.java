@@ -12,11 +12,14 @@ public class WAP01_Check_PerfectSquare_OR_Not {
 		
 		int ans = 0;
 		for(int i=1; i*i<=n; i++) {
+			
 			if(i*i==n) {
+				
 				return 1;
+				
 			}
 		}
-		return ans;
+		return 0;
 	}
 
 	public static void main(String[] args) {
