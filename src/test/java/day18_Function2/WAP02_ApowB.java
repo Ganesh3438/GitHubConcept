@@ -6,6 +6,9 @@ public class WAP02_ApowB {
 		
 		int ans = (int)Math.pow(2, 3);
 		System.out.println(ans);
+		
+//		float a = (float) (8.2/2);
+//		System.out.println(a);
 
 	}
 
